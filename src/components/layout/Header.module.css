@@ -1,0 +1,39 @@
+header {
+    background-color: hsl(40, 44%, 89%);
+    color: #c9b796;
+    padding: 15px;
+    padding-left: 100px;
+    padding-top: 32px;
+    padding-bottom: 1px;
+    text-align: left;
+    border-bottom: 5px solid #c9b796;
+    border-top: 5px solid  #c9b796;
+    border-left: 5px solid  #c9b796;
+    border-right: 5px solid  #c9b796;
+    font-family: 'Notera';
+    width: 97,5%
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 0px;
+}
+
+.item {
+    text-align: center;
+    padding-bottom: 103px;
+    font-size: 19px;
+}
+
+.item a {
+    color: #c0aa80;
+    text-decoration: none;
+    padding-left: 1px;
+    padding: 10px;
+}
+
+.item a:hover {
+    color: #79591a
+}
