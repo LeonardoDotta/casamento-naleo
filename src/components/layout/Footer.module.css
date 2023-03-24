@@ -16,8 +16,24 @@
     margin: 0 1em;
 }
 
-.social_list li:hover {
-    color: #ffbb33;
+.social_list_instagram1 {
+    color: aqua;
+    padding: 8px;
+    padding-right: 15px;
+}
+
+.social_list_instagram2 {
+    color: rgb(184, 20, 162);
+    padding: 8px;
+    padding-left: 15px;
+}
+
+.social_list_instagram1:hover {
+    color: white;
+}
+
+.social_list_instagram2:hover {
+    color: white;
 }
 
 .social_list svg {
