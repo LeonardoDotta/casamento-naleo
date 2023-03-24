@@ -10,10 +10,12 @@
 }
 
 .produtos {
-    width: 31%;
+    width: 25%;
     display: inline-block;
     margin: 1% 1%;
     padding: 15px;
+    padding-top: 50px;
+    padding-left: 60px;
 }
 
 .produtos-image {
@@ -25,7 +27,7 @@
 }
 
 #img-1 {
-    background-image: url('../../../imgs/img1.jpg');
+    background-image: url('../../../imgs/naleo1.webp');
 }
 
 #img-2 {
@@ -48,12 +50,25 @@
     background-image: url('../../../imgs/img6.jpeg');
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Notera';
+    font-size: 30px;
+}
+
 h3 {
     margin-bottom: 10px;
     color: #3db36b;
     border-left: 5px solid #0f642f;
     padding-left: 7px;
     font-size: 24px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Notera';
+    font-size: 20px;
+    font-style: italic;
 }
 
 .produtos p {

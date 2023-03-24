@@ -37,3 +37,10 @@ header {
 .item a:hover {
     color: #79591a
 }
+
+.img-logo {
+    align-content: center;
+    padding: 100%;
+    padding-left: 90%;
+    padding-bottom: 90px;
+}

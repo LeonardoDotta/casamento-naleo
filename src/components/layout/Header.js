@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import Container from './Container'
 
 import styles from './Header.module.css'
-// import logo from '../../img/img.jpg'
+import logo from '../../imgs/logo naleo.jpg'
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
     <h1>CASAMENTO NALEO - ??/??/2024</h1>
     <Container> 
     <Link to="/">
-      {/* <img  style={{height: '80px'}} src={logo} alt="NALEO" /> */}
+      <img  styles={styles.img-logo} src={logo} alt="NALEO" />
     </Link>
     <ul className={styles.list}>
       <li className={styles.item}> <Link to="/">Home</Link></li>

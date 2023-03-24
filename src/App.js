@@ -3,12 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Home from './components/layout/Home'
 import Footer from './components/layout/Footer'
-import Local from './components/pages/Local'
+import Local from './components/pages/Local/Local'
 import Presentes from './components/pages/Presentes/Presentes'
-import Recados from './components/pages/Recados'
-import SobreNós from './components/pages/Sobre Nós'
-import Testemunhas from './components/pages/Testemunhas'
-import Produtos from './components/pages/Presentes/Produtos'
+import Recados from './components/pages/Recados/Recados'
+import SobreNós from './components/pages/Sobre Nós/Sobre Nós'
+import Testemunhas from './components/pages/Testemunhas/Testemunhas'
 
 function App() {
   return (
