@@ -1,7 +1,7 @@
 .footer {
-    background-color: #222;
-    color: #fff;
-    padding: 3em;
+    background-color: hsl(40, 44%, 89%);
+    color: #c0aa80;
+    padding: 15px;
     text-align: center;
 }
 
@@ -17,23 +17,23 @@
 }
 
 .social_list_instagram1 {
-    color: aqua;
+    color: #948362;
     padding: 8px;
     padding-right: 15px;
 }
 
 .social_list_instagram2 {
-    color: rgb(184, 20, 162);
+    color: #948362;
     padding: 8px;
     padding-left: 15px;
 }
 
 .social_list_instagram1:hover {
-    color: white;
+    color: rgb(94, 58, 16);
 }
 
 .social_list_instagram2:hover {
-    color: white;
+    color: rgb(94, 58, 16);
 }
 
 .social_list svg {
@@ -45,6 +45,5 @@
 }
 
 .copy_right span {
-    font-weight: bold;
-    color: green;
+    color: #c0aa80;
 }
