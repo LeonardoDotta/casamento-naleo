@@ -1,0 +1,50 @@
+.product-image {
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 10px;
+    min-width: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.products-div {
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.section {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+#img-1 {
+    background-image: url('../../imgs/naleo1.webp');
+}
+
+#img-2 {
+    background-image: url('../../imgs/img2.jpeg');
+}
+
+#img-3 {
+    background-image: url('../../imgs/img3.jpeg');
+}
+
+#img-4 {
+    background-image: url('../../imgs/img4.webp');
+}
+
+#img-5 {
+    background-image: url('../../imgs/img5.jpg');
+}
+
+#img-6 {
+    background-image: url('../../imgs/img6.jpeg');
+}

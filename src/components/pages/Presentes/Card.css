@@ -1,0 +1,44 @@
+.card {
+    width: 250px;
+    padding-top: 20px;
+    background-color: antiquewhite;
+    border: none;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #7bcee2;
+    padding-left: 7px;
+    font-size: 24px;
+    min-width: 100px;
+    height: 60px;
+}
+
+.descricao {
+    height: 20px;
+}
+
+.preco {
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #4785b8;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #7bcee2;
+}

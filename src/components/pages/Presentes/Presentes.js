@@ -1,19 +1,40 @@
-import Produtos from './Produtos'
+import Card from './Card'
+// import '../../layout/Container.css'
+import '../Presentes/Presentes.css'
 
 function Presentes() {
     return (
-            <main className="container">
-                <section className="produtos-container">
-                  <h2>Presentes</h2>
-                  <h4>Escolha um item que queira nos presentear. Ficaremos muito felizes com sua escolha!</h4>
-                    <Produtos nome='Micro-ondas Philco PMO34ES 34L Espelhado 1400W' preco='869,90' parcelas='9x' preço2='96,66' id='img-1' link='https://www.magazineluiza.com.br/micro-ondas-philco-pmo34es-34l-espelhado-1400w/p/ffed9aa61b/ed/mond/?&seller_id=britania'/>
-                    <Produtos nome='Produto 2' descricao='2' preco='100' id='img-2'/>
-                    <Produtos nome='Produto 3' descricao='3' preco='100' id='img-3'/>
-                    <Produtos nome='Produto 4' descricao='4' preco='100' id='img-4'/>
-                    <Produtos nome='Produto 5' descricao='5' preco='100' id='img-5'/>
-                    <Produtos nome='Produto 6' descricao='6' preco='100' id='img-6'/>
-                </section>
-            </main>
+            <section className='container_pages'>
+                <div>
+                    <div>
+                        Presentes
+                    </div>
+                    <div className='div_p'>
+                        Escolha um item que queira nos presentear. Ficaremos muito felizes com sua escolha!
+                    </div>
+                </div>
+                <div>
+                    <section className='section'>
+                        <div>
+                            <div className='products-div'>
+                                <Card 
+                                    nome='Micro-ondas Philco PMO34ES 34L Espelhado 1400W'
+                                    descricao='' 
+                                    preco='869,90' 
+                                    parcelas='9x' 
+                                    preço2='96,66' id='img-1' 
+                                    link='https://www.magazineluiza.com.br/micro-ondas-philco-pmo34es-34l-espelhado-1400w/p/ffed9aa61b/ed/mond/?&seller_id=britania'
+                                />
+                                <Card nome='Produto 2' descricao='' preco='100' id='img-2'/>
+                                <Card nome='Produto 3' descricao='' preco='100' id='img-3'/>
+                                <Card nome='Produto 4' descricao='' preco='100' id='img-4'/>
+                                <Card nome='Produto 5' descricao='' preco='100' id='img-5'/>
+                                <Card nome='Produto 6' descricao='' preco='100' id='img-6'/>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
        )
     }
 

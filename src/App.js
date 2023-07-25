@@ -8,12 +8,19 @@ import Presentes from './components/pages/Presentes/Presentes'
 import Recados from './components/pages/Recados/Recados'
 import SobreNós from './components/pages/Sobre Nós/Sobre Nós'
 import Testemunhas from './components/pages/Testemunhas/Testemunhas'
+import { useEffect } from 'react'
+import { loadUsers } from './requests'
 
 function App() {
+
+  useEffect(() => {
+    loadUsers()
+  },[])
+
   return (
     <Router>
       <Header />
-      <Routes> 
+      <Routes>
         <Route element={<Home />} exact path="/">
         </Route>
       </Routes>

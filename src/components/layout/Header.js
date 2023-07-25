@@ -1,27 +1,22 @@
 import {Link} from 'react-router-dom'
-
-import Container from './Container'
-
-import styles from './Header.module.css'
+import './Header.css'
 
 function Header() {
   return (
-  <header styles={styles.header}>
-    <h1 className={styles.h1}>CASAMENTO NALEO - 25/11/2024 </h1>
-    <Container> 
-      <Link to="/">
-      </Link>
-      <ul className={styles.list}>
-        <li className={styles.item}> <Link to="/">Home ❣</Link></li>
-        <li className={styles.item}> <Link to="/sobre nós">Sobre Nós ❣</Link></li>
-        <li className={styles.item}> <Link to="/testemunhas">Testemunhas ❣</Link></li>
-        <li className={styles.item}> <Link to="/local">Local ❣</Link></li>
-        <li className={styles.item}> <Link to="/presentes">Presentes ❣</Link></li>
-        <li className={styles.item}> <Link to="/recados">Recados ❣</Link></li>
-      </ul>
-    </Container>
-  </header>
-)
+      <div className='div_header'>
+          <div className='div_casamento'>
+              CASAMENTO NALEO - 25/11/2024 ou 20/10/2024
+          </div>
+          <div className='list'>
+              <li className='item'> <Link to="/">Home ❣</Link></li>
+              <li className='item'> <Link to="/sobre nós">Sobre Nós ❣</Link></li>
+              <li className='item'> <Link to="/testemunhas">Testemunhas ❣</Link></li>
+              <li className='item'> <Link to="/local">Local ❣</Link></li>
+              <li className='item'> <Link to="/presentes">Presentes ❣</Link></li>
+              <li className='item'> <Link to="/recados">Recados ❣</Link></li>
+          </div>
+      </div>
+  )
 }
 
 export default Header
