@@ -15,3 +15,38 @@
     font-size: 24px;
 }
 
+.div_nome_email {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.div_form {
+    display: contents;
+}
+
+/* .div_nome {
+    width: 50%;
+}
+
+.div_email {
+    width: 50%;
+} */
+
+.div_mensagem {
+    height: 20vh;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding-bottom: 15vh
+}
+
+

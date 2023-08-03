@@ -5,13 +5,13 @@
     border: none;
 }
 
-h3 {
+.div_h3 {
     margin-bottom: 10px;
-    color: #7bcee2;
+    color: black;
     padding-left: 7px;
     font-size: 24px;
     min-width: 100px;
-    height: 60px;
+    height: 20%;
 }
 
 .descricao {
@@ -27,18 +27,21 @@ h3 {
     font-weight: bold;
 }
 
-.btn {
-    display: block;
+.botao {
+    display: flex;
+    justify-content: center;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #4785b8;
+    background-color: black;
     color: #fff;
     padding: 15px;
     border-radius: 10px;
     transition: .5s;
+    height: 5vh;
+    align-items: center;
 }
 
-.btn:hover {
+.botao:hover {
     background-color: #7bcee2;
 }
