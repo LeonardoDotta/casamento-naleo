@@ -39,7 +39,7 @@
 
 .casal_1 {
     text-align: left;
-    margin-left: 95px;
+    margin-left: 45px;
 }
 
 .div_inline_casal_1 {
@@ -66,7 +66,7 @@
 
 .casal_2 {
     text-align: left;
-    margin-right: 95px;
+    margin-right: 45px;
 }
 
 .div_inline_casal_2 {
@@ -92,7 +92,7 @@
 
 .casal_3 {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .div_inline_casal_3 {
@@ -119,7 +119,7 @@
 
 .casal_4 {
     text-align: left;
-    margin-right: 95px;
+    margin-right: 45px;
 }
 
 .div_inline_casal_4 {
@@ -145,7 +145,7 @@
 
 .casal_5 {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .div_inline_casal_5 {
@@ -173,7 +173,7 @@
 
 .casal_6 {
     text-align: left;
-    margin-right: 95px;
+    margin-right: 45px;
 }
 
 .div_inline_casal_6 {
@@ -187,6 +187,10 @@
     margin-right: 20px;
 }
 
+.fotos_testemunhas {
+    width: 20vh;
+}
+
 .div_p {
     font-size: 24px;
 }
@@ -196,6 +200,7 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .div_form {
@@ -208,7 +213,6 @@
 
 .mensagem {
     height: 20vh;
-    width: 100%;
     padding-top: 20px;
     font-size: 1.5rem;
     border: var(--bs-border-width) solid var(--bs-border-color);
@@ -224,5 +228,6 @@
 .button:hover {
     background-color: rgb(94, 58, 16);
 }
+
 
 

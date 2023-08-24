@@ -1,6 +1,4 @@
 import '../../layout/Container.css'
-import { Image } from 'antd'
-import Casal1 from '../../imgs/logonaleo.jpg'
 
 function Testemunhas() {
     return (
@@ -24,10 +22,7 @@ function Testemunhas() {
                     Casal 1
                 </div>
                 <div className='div_inline_casal_1'>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/1.jpg' className='fotos_testemunhas'/>
                     <p className='p_casal_1'>Falar sobre o casal 1</p>
                 </div>
             </div>
@@ -40,10 +35,7 @@ function Testemunhas() {
                 </div>
                 <div className='div_inline_casal_2'>
                     <p className='p_casal_2'>Falar sobre o casal 2</p>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/2.webp' className='fotos_testemunhas'/>
                 </div>
             </div>
 
@@ -54,10 +46,7 @@ function Testemunhas() {
                     Casal 3
                 </div>
                 <div className='div_inline_casal_3'>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/3.jpg' className='fotos_testemunhas'/>
                     <p className='p_casal_3'>Falar sobre o casal 3</p>
                 </div>
             </div>
@@ -70,10 +59,7 @@ function Testemunhas() {
                 </div>
                 <div className='div_inline_casal_4'>
                     <p className='p_casal_4'>Falar sobre o casal 4</p>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/4.jpeg' className='fotos_testemunhas'/>
                 </div>
             </div>
 
@@ -84,10 +70,7 @@ function Testemunhas() {
                     Casal 5
                 </div>
                 <div className='div_inline_casal_5'>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/5.jpeg' className='fotos_testemunhas'/>
                     <p className='p_casal_5'>Falar sobre o casal 5</p>
                 </div>
             </div>
@@ -100,10 +83,7 @@ function Testemunhas() {
                 </div>
                 <div className='div_inline_casal_6'>
                     <p className='p_casal_6'>Falar sobre o casal 6</p>
-                    <Image
-                        src={Casal1}
-                        width={300}
-                    />
+                    <img src='imgs/6.jpeg' className='fotos_testemunhas'/>
                 </div>
             </div>
 

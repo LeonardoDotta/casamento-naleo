@@ -50,3 +50,9 @@
     .div_header{font-size: 10px;
     }
 }
+
+@media (min-width: 1230px) {
+    .div_header{
+        font-size: 23px;
+    }
+}

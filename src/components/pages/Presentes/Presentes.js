@@ -19,7 +19,7 @@ function Presentes() {
                         nome='Micro-ondas Philco PMO34ES 34L Espelhado 1400W'
                         descricao=''
                         preco='869,90'
-                        parcelas='9x'
+                        parcelas='9'
                         preço2='96,66' 
                         nome_foto='naleo1.webp'
                         link='https://www.magazineluiza.com.br/micro-ondas-philco-pmo34es-34l-espelhado-1400w/p/ffed9aa61b/ed/mond/?&seller_id=britania'
