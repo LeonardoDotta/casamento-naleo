@@ -1,4 +1,3 @@
-import './Sobre Nós.css'
 import '../../layout/Container.css'
 
 function SobreNós() {

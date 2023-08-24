@@ -3,16 +3,20 @@
     color: #c9b796;
     padding: 30px;
     font-family: 'Gruppo';
-    font-size: 17px;
+    font-size: 22px;
     height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .list {
     display: flex;
     list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .item a {
@@ -24,4 +28,25 @@
 
 .item a:hover {
     color: #79591a
+}
+
+@media (max-width: 475px) {
+
+    .div_header{font-size: 17px;
+    }
+    .list{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 396px) {
+
+    .div_header{font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .div_header{font-size: 10px;
+    }
 }

@@ -41,10 +41,10 @@ function Recados() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" className='div_mensagem'>
                         <label for="validationCustomUsername" class="form-label">Mensagem</label>
                         <div class="input-group has-validation">
-                            <input type="text" class="form-control" className='div_mensagem' id="validationCustomUsername" aria-describedby="inputGroupPrepend" required name='mensagem'>
+                            <input type="text" class="form-control" className='mensagem' id="validationCustomUsername" aria-describedby="inputGroupPrepend" required name='mensagem'>
                             </input>
                             <div class="invalid-feedback">
                                 Please digit a message.
@@ -52,7 +52,7 @@ function Recados() {
                         </div>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
+                        <button class="btn btn-primary" className='button' type="submit">Enviar</button>
                     </div>
                 </form>
             </div>

@@ -15,36 +15,38 @@ function App() {
 
   useEffect(() => {
     loadUsers()
-  },[])
+  }, [])
 
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route element={<Home />} exact path="/">
-        </Route>
-      </Routes>
-      <Routes>
-        <Route element={<Local />} exact path="/local">
-        </Route>
-      </Routes>
-      <Routes>
-        <Route element={<Presentes />} exact path="/presentes">
-        </Route>
-      </Routes>
-      <Routes>
-        <Route element={<Recados />} exact path="/recados">
-        </Route>
-      </Routes>
-      <Routes>
-        <Route element={<SobreNós />} exact path="/sobre nós">
-        </Route>
-      </Routes>
-      <Routes>
-        <Route element={<Testemunhas />} exact path="/testemunhas">
-        </Route>
-      </Routes>
-      <Footer />
+      <div>
+        <Header />
+        <Routes>
+          <Route element={<Home />} exact path="/">
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<Local />} exact path="/local">
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<Presentes />} exact path="/presentes">
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<Recados />} exact path="/recados">
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<SobreNós />} exact path="/sobre nós">
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<Testemunhas />} exact path="/testemunhas">
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   )
 }

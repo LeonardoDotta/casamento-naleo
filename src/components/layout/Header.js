@@ -5,7 +5,7 @@ function Header() {
   return (
       <div className='div_header'>
           <div className='div_casamento'>
-              CASAMENTO NALEO - 25/11/2024 ou 20/10/2024
+              CASAMENTO NALEO - 20/10/2024
           </div>
           <div className='list'>
               <li className='item'> <Link to="/">Home ❣</Link></li>

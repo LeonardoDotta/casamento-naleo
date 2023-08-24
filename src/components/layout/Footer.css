@@ -3,6 +3,7 @@
     color: #c0aa80;
     padding: 15px;
     text-align: center;
+    width: 100%;
 }
 
 .social_list {
@@ -10,6 +11,7 @@
     justify-content: center;
     list-style-type: none;
     padding: 5px;
+    padding-top: 10px;
 }
 
 .social_list li {
